@@ -13,10 +13,10 @@ const PageHeader: React.FC<{ title: string; subtitle: string }> = ({ title, subt
   </div>
 );
 
-const categories = ['All', 'Denim', 'Jackets', 'Hoodies'];
-
 const GalleryPage: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState('All');
+
+  const categories = useMemo(() => ['All', ...Array.from(new Set(GALLERY_IMAGES.map(image => image.category)))], []);
 
   const filteredImages = useMemo(() => {
     if (activeCategory === 'All') {

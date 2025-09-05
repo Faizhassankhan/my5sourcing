@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import type { NavLink, Service, GalleryImage } from './types';
 
@@ -36,16 +37,13 @@ export const SERVICES: Service[] = [
 
 
 export const GALLERY_IMAGES: GalleryImage[] = [
-    { id: 1, src: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=800&h=600&fit=crop', alt: 'Denim Jacket on hanger', category: 'Jackets' },
-    { id: 2, src: 'https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=800&h=600&fit=crop', alt: 'Folded Blue Jeans', category: 'Denim' },
-    { id: 3, src: 'https://images.unsplash.com/photo-1534961982320-9e694223b2b8?q=80&w=800&h=600&fit=crop', alt: 'Person wearing a Gray Hoodie', category: 'Hoodies' },
-    { id: 4, src: 'https://images.unsplash.com/photo-1602293589914-9e296ba2a7c4?q=80&w=800&h=600&fit=crop', alt: 'Various Denim Pants', category: 'Denim' },
-    { id: 5, src: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&h=600&fit=crop', alt: 'Leather Biker Jacket', category: 'Jackets' },
-    { id: 6, src: 'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=800&h=600&fit=crop', alt: 'Close up on Black Jeans', category: 'Denim' },
-    { id: 7, src: 'https://images.unsplash.com/photo-1556156649-55df88c5ba77?q=80&w=800&h=600&fit=crop', alt: 'Stylish man in hoodie', category: 'Hoodies' },
-    { id: 8, src: 'https://images.unsplash.com/photo-1605518429452-ed2379a0de5a?q=80&w=800&h=600&fit=crop', alt: 'Jean jacket detail', category: 'Jackets' },
-    { id: 9, src: 'https://images.unsplash.com/photo-1563352723-93052328896a?q=80&w=800&h=600&fit=crop', alt: 'Ripped denim jeans', category: 'Denim' },
-    { id: 10, src: 'https://images.unsplash.com/photo-1576871335624-783ef7c65239?q=80&w=800&h=600&fit=crop', alt: 'Black hoodie', category: 'Hoodies' },
-    { id: 11, src: 'https://images.unsplash.com/photo-1598937984253-1e5302521769?q=80&w=800&h=600&fit=crop', alt: 'Stack of jeans', category: 'Denim' },
-    { id: 12, src: 'https://images.unsplash.com/photo-1610452623126-70f90e388d1e?q=80&w=800&h=600&fit=crop', alt: 'Warm jackets', category: 'Jackets' },
+    { id: 1, src: 'https://plus.unsplash.com/premium_photo-1698260795268-cc7e0d5c3174?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', alt: 'Denim Jacket', category: 'Jackets' },
+    { id: 2, src: 'https://i.postimg.cc/NMZ63Yxd/29eecb56b3ba1dc-file-00000000341c61f5b2105d33a6cf8e9d-wm.jpg', alt: 'Denim jeans showcase', category: 'Denim' },
+    { id: 3, src: 'https://i.postimg.cc/JzgMxPZ8/Chat-GPT-Image-Sep-4-2025-02-38-40-PM.png', alt: 'Rugged denim hoodie', category: 'Hoodies' },
+    { id: 4, src: 'https://i.postimg.cc/yYtmHzzS/Chat-GPT-Image-Sep-4-2025-02-24-22-PM.png', alt: 'Stylish denim jackets', category: 'Jackets' },
+    { id: 5, src: 'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=800&h=600&fit=crop', alt: 'Jeans Pant', category: 'Denim' },
+    { id: 6, src: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', alt: 'Stylish hoodie', category: 'Hoodies' },
+    { id: 7, src: 'https://plus.unsplash.com/premium_photo-1707816508645-d229ddd3aa65?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', alt: 'Fashionable modern style', category: 'Jackets' },
+    { id: 8, src: 'https://images.unsplash.com/photo-1715758890151-2c15d5d482aa?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', alt: 'Close up of Jeans', category: 'Denim' },
+    { id: 9, src: 'https://i.postimg.cc/JhxwgxBt/Chat-GPT-Image-Sep-4-2025-02-58-22-PM.png', alt: 'Premium denim hoodie', category: 'Hoodies' },
 ];

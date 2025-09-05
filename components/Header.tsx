@@ -41,7 +41,7 @@ const Header: React.FC<HeaderProps> = ({ currentRoute }) => {
               <a 
                 key={link.label} 
                 href={link.href}
-                className={`text-gray-300 transition-colors duration-300 relative group ${currentRoute === link.href ? 'text-amber-400' : 'hover:text-amber-400'}`}
+                className={`text-gray-300 font-bold transition-colors duration-300 relative group ${currentRoute === link.href ? 'text-amber-400' : 'hover:text-amber-400'}`}
               >
                 {link.label}
                 <span className={`absolute bottom-0 left-0 w-full h-0.5 bg-amber-400 transition-transform duration-300 transform ${currentRoute === link.href ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'}`}></span>

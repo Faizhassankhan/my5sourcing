@@ -14,10 +14,10 @@ const PageHeader: React.FC<{ title: string; subtitle: string }> = ({ title, subt
 );
 
 const serviceImages = [
-    'https://images.unsplash.com/photo-1523381294911-8d3cead13475?q=80&w=800&h=600&fit=crop',
-    'https://images.unsplash.com/photo-1555529771-83d3dba3c614?q=80&w=800&h=600&fit=crop',
-    'https://images.unsplash.com/photo-1578575437130-5278e6914c47?q=80&w=800&h=600&fit=crop',
-    'https://images.unsplash.com/photo-1579208570337-b4e8838d15d6?q=80&w=800&h=600&fit=crop',
+    'https://i.postimg.cc/pLvH2H61/De-Watermark-ai-1756907555285.jpg',
+    'https://i.postimg.cc/yNVsTHhS/De-Watermark-ai-1756908214913.jpg',
+   'https://i.postimg.cc/8CtDK0wX/De-Watermark-ai-1756908242387.jpg',
+   'https://i.postimg.cc/FRzv2VBr/istockphoto-173239968-1024x1024-1-jpg.jpg',
 ];
 
 const ServicesPage: React.FC = () => {

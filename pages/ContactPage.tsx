@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const PageHeader: React.FC<{ title: string; subtitle: string }> = ({ title, subtitle }) => (
   <div className="bg-gray-800 py-24 sm:py-32">
@@ -19,10 +20,33 @@ const ContactPage: React.FC = () => {
     setFormState({ ...formState, [e.target.name]: e.target.value });
   };
 
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   console.log('Form submitted:', formState);
+  //   setSubmitted(true);
+  // };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formState);
-    setSubmitted(true);
+
+    emailjs.send(
+        'service_hub2c48',
+        'template_ioskpuj',
+        {
+          from_name: formState.name,
+          from_email: formState.email,
+          message: formState.message,
+        },
+        'B3R3Oc9VfQ1ZDljTd'
+      )
+      .then(
+        () => {
+          setSubmitted(true);
+        },
+        (error) => {
+          console.error('FAILED...', error);
+        }
+      );
   };
 
   return (
@@ -88,3 +112,4 @@ const ContactPage: React.FC = () => {
 };
 
 export default ContactPage;
+
